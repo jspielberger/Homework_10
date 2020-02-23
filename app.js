@@ -236,6 +236,8 @@ function appMenu() {
   }
 
   function buildTeam() {
+    console.log(teamMembers);
+    //testing the output
     fs.writeFileSync(outputPath, render(teamMembers), "utf-8");
   }
 
